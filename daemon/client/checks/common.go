@@ -20,7 +20,7 @@ const (
 	daemonDNSServiceB = "daemon.ose-mon-b.svc.cluster.local"
 	daemonDNSServiceC = "daemon.ose-mon-c.svc.cluster.local"
 	daemonDNSPod      = "daemon"
-	kubernetesIP      = "172.30.0.1"
+	kubernetesIP      = "172.30.0.10"
 )
 
 var num = regexp.MustCompile(`\d+(?:\.\d+)?`)
